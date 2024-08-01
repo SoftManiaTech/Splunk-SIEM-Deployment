@@ -44,7 +44,7 @@ Navigate to splunk user home directory
 cd /home/splunk
 ```
 
-Download Splunk Universal Forwarder (Based on the version you want, you can get this command from [https://www.splunk.com/en_us/download/splunk-enterprise/thank-you-enterprise.html](https://www.splunk.com/en_us/download/universal-forwarder/thank-you-universalforwarder.html))
+Download Splunk Universal Forwarder (Based on the version you want, you can get this command from (https://www.splunk.com/en_us/download/universal-forwarder.html?locale=en_us))
 ```bash
 wget -O splunkforwarder-9.2.2-d76edf6f0a15-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.2.2/linux/splunkforwarder-9.2.2-d76edf6f0a15-Linux-x86_64.tgz"
 ```
