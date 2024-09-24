@@ -1,4 +1,4 @@
-Disable THP
+# Disable THP
 
 To know more info about THP & Splunk Performance, check this link: https://docs.splunk.com/Documentation/Splunk/9.2.2/ReleaseNotes/SplunkandTHP?ref=hk
 
