@@ -25,12 +25,6 @@ shcluster_label = shcluster1
 /opt/splunk/bin/splunk restart
 ```
 
-#### Open Server.conf file and copy the encrypted key to your notepad.
-
-```bash
-cat /opt/splunk/etc/system/local/server.conf
-```
-
 ## Configure Search Head cluster members
 
 ### Search Head 1
