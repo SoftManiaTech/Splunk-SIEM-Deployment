@@ -7,9 +7,11 @@
 ##### Navigate to system/local directory.
 ```bash
 sudo su splunk
-
+```
+```bash
 cd /opt/splunk/etc/system/local/
 ```
+
 #### Add below contents to server.conf file.
 ```bash
 vi server.conf
