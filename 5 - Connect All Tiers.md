@@ -106,10 +106,14 @@ defaultGroup = group1
 
 cd /opt/splunk/bin/
 
-./splunk show shcluster-status --verbose
-
 ./splunk apply shcluster-bundle --answer-yes -target https://SEARCH_HEAD_1_IP:8089 -auth admin:PASSWORD
 
+```
+In any one of the Search Heads,
+```bash
+cd /opt/splunk/bin/
+
+./splunk show shcluster-status --verbose
 ```
 
 
