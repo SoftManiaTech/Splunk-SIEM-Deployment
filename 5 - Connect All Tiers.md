@@ -3,13 +3,13 @@
 ### Search Head 1, 2, 3
 ```bash
 sudo su - splunk
-
+```
+```bash
 cd /opt/splunk/bin
 
 ./splunk edit cluster-config -mode searchhead -manager_uri https://YOUR_CLUSTER_MANAGER_IP:8089 -secret YOUR_INDEXER_CLUSTER_SECRET_KEY 
 
 ./splunk restart
-
 ```
 
 ## Connect Forwarders with Indexer Cluster
@@ -20,7 +20,8 @@ cd /opt/splunk/bin
 
 ```bash
 sudo su - splunk
-
+```
+```bash
 cd /opt/splunk/etc/system/local/
 
 vi server.conf
@@ -38,7 +39,8 @@ indexerWeightByDiskCapacity = true
 
 ```bash
 sudo su - splunk
-
+```
+```bash
 cd /opt/splunk/etc/deployment-apps
 
 mkdir ORG_general_infra_config
@@ -72,6 +74,8 @@ defaultGroup = group1
 
 ```bash
 sudo su - splunk
+```
+```bash
 
 cd /opt/splunk/etc/shcluster/apps/ 
 
@@ -113,7 +117,8 @@ cd /opt/splunk/bin/
 
 ```bash
 sudo su - splunk
-
+```
+```bash
 cd /opt/splunk/etc/apps/ 
 
 mkdir ORG_general_infra_config
