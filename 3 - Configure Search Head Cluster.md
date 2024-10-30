@@ -34,7 +34,8 @@ shcluster_label = shcluster1
 #### Execute below commands
 ```bash
 sudo su splunk
-
+```
+```bash
 cd /opt/splunk/bin
 
 ./splunk init shcluster-config -auth admin:YOUR_PASSWD -mgmt_uri https://YOUR_SH1_IP:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url http://YOUR_DEPLOYER_IP:8089 -secret pass_4_Symm_Key -shcluster_label shcluster1
@@ -46,7 +47,8 @@ cd /opt/splunk/bin
 #### Execute below commands
 ```bash
 sudo su splunk
-
+```
+```bash
 cd /opt/splunk/bin
 
 ./splunk init shcluster-config -auth admin:YOUR_PASSWD -mgmt_uri https://YOUR_SH2_IP:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url http://YOUR_DEPLOYER_IP:8089 -secret pass_4_Symm_Key -shcluster_label shcluster1
@@ -58,7 +60,8 @@ cd /opt/splunk/bin
 #### Execute below commands
 ```bash
 sudo su splunk
-
+```
+```bash
 cd /opt/splunk/bin
 
 ./splunk init shcluster-config -auth admin:YOUR_PASSWD -mgmt_uri https://YOUR_SH3_IP:8089 -replication_port 9000 -replication_factor 3 -conf_deploy_fetch_url http://YOUR_DEPLOYER_IP:8089 -secret pass_4_Symm_Key -shcluster_label shcluster1
@@ -71,7 +74,8 @@ In Search Head 1,
 
 ```bash
 sudo su splunk
-
+```
+```bash
 cd /opt/splunk/bin
 
 ./splunk bootstrap shcluster-captain -servers_list "https://YOUR_SH1_IP:8089,https://YOUR_SH2_IP:8089,https://YOUR_SH3_IP:8089" -auth admin:YOUR_SH1_PASSWORD
