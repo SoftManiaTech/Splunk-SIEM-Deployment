@@ -4,7 +4,8 @@
 
 ```bash
 sudo su splunk
-
+```
+```bash
 /opt/splunk/bin/splunk status
 
 cd /opt/splunk/bin
